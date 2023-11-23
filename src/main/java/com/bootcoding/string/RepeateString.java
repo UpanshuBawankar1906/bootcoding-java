@@ -1,5 +1,5 @@
 package com.bootcoding.string;
-
+//Write a program that takes a string and a number as input, then prints the string repeated that number of times.
 import java.util.Scanner;
 
 public class RepeateString

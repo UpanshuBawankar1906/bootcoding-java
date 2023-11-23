@@ -1,5 +1,5 @@
 package com.bootcoding.string;
-
+//Write a program to find and print the length of a given string.
 public class LengthString
 {
     public static <Stirng> void main (String [] args)

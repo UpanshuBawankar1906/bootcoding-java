@@ -1,6 +1,6 @@
 package com.bootcoding.string;
 //import jdk.internal.icu.impl.CharacterIteratorWrapper;
-
+//Create a program that takes a string as input and prints it in both uppercase and lowercase.
 import java.util.Scanner;
 public class Convert
 {

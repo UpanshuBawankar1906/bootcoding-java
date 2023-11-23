@@ -1,5 +1,5 @@
 package com.bootcoding.string;
-
+//Write a program to concatenate two strings and print the result.
 public class ConcatenateString
 {
     public static <Stirng> void main (String [] args)

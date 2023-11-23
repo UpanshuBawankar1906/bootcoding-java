@@ -1,5 +1,5 @@
 package com.bootcoding.string;
-
+//Compare two strings and print whether they are equal or not.
 public class EqualString
 {
     public static void main(String[] Args)

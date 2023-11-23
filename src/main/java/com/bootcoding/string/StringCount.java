@@ -1,4 +1,5 @@
 package com.bootcoding.string;
+//Write a program to count and print the number of words in a sentence.
 import java.util.Scanner;
 public class StringCount
 {
