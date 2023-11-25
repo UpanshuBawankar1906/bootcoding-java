@@ -1,5 +1,6 @@
 package com.bootcoding.star;
-public class TrianglePattern
+
+public class AlphabetPattern
 {
     public static void main(String[] args)
     {
@@ -11,7 +12,7 @@ public class TrianglePattern
             }
             for (int k = 1; k <= (2*i -1) ;k++)
             {
-                if(k==1 || i == 8 || k==(2*i-1))
+                if(k==1 || i == 5 || k==(2*i-1))
                 {
                     System.out.print("*");
                 }
@@ -23,4 +24,5 @@ public class TrianglePattern
             System.out.println();
         }
     }
+
 }
