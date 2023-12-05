@@ -4,20 +4,22 @@ public class Increment
 	public static void main(String[] args) 
        {
 
-		int variable = 15;
-		System.out.println("Original value of the variable = " + variable);
+		int a = 9;
+			
+                System.out.println("Original value of the variable = " + a);
 
-		
-		variable++; 	 
-		System.out.println("variable++ = " + variable);
+		a++; 	 
+		System.out.println("a++ = " + a);
 
-		++variable;		
-		System.out.println("++variable = " + variable);
+		++a;		
+		System.out.println("++a = " + a);
              
-                variable--;
-		System.out.println("variable-- = " + variable);
+                a--;
+		System.out.println("a-- = " + a);
             
-                --variable;
-		System.out.println("--variable = " + variable); 
+                --a;
+		System.out.println("--a = " + a); 
+
+                
 	}
 }
