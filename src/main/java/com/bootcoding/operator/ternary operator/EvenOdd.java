@@ -4,7 +4,7 @@ public class EvenOdd
        {
         
         int number = 17;
-        String result = (number % 2 == 0) ? "Even" : "Odd";
+        String result = (number % 2 == 0) ? "even" : "odd";
         System.out.println("The number is " + result);
     }
 }
