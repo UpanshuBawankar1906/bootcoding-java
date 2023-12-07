@@ -2,7 +2,7 @@ public class NumberProperties
 {
    public static void main(String [] args)
      {
-        int a = 21;
+        int a = 5;
         int b = 0;
         int i;
         for(i=2; i<=a-1; i++)
@@ -16,11 +16,12 @@ public class NumberProperties
           {
               System.out.println(a + " is prime number");
           }
-          else if(a % 2 == 0)
+       
+          if(a % 2 == 0)
            {
               System.out.println(a + " is a even number");             
            }
-         else 
+          else 
            {
               System.out.println(a + " is a odd number");             
            }
