@@ -2,7 +2,7 @@ public class AgeClassifier
 {
    public static void main(String [] args)
      {
-         int a = 500;
+         int a = 25;
 
           if(a<=12)
           {
