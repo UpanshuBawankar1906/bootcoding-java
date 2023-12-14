@@ -12,6 +12,6 @@ public class FactorialCalculator
             fact *= i;
             i++;
           }
-         System.out.println("The factorial of " + i + " is:" + fact );
+         System.out.println("The factorial of " + num + " is:" + fact );
      }
 }
