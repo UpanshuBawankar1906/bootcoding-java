@@ -1,3 +1,5 @@
+//Write a program that prints the multiplication table of 7 using a for loop.
+
 public class Table
 {
    public static void main(String [] args)
