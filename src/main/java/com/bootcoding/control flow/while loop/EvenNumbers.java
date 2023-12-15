@@ -9,7 +9,7 @@ public class EvenNumbers
                 {
                   System.out.println(i);
                 }
-              i++;   
+              i++;  
              } 
 
             while (i <= 20);
