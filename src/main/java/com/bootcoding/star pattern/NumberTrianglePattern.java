@@ -11,7 +11,7 @@ public class NumberTrianglePattern
    public static void main(String [] args) 
      { 
 	int i, j; 
-        int n = 8;
+        int n = 6;
 		
 	for (i = 1; i <= n; i++) 
            { 
