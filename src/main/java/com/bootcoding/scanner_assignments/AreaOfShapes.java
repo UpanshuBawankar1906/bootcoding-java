@@ -1,3 +1,4 @@
+//Calculate the area of different shapes (circle, square, triangle) based on user input. Use appropriate formulas for each shape.
 package com.bootcoding.scanner_assignments;
 
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+//Create a basic calculator that can perform addition, subtraction, multiplication, and division. by taking inputs from the user .
 package com.bootcoding.scanner_assignments;
 
 import java.util.Scanner;

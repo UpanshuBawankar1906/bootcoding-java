@@ -1,3 +1,4 @@
+//Determine whether a given number is a palindrome (reads the same backward as forward).
 package com.bootcoding.scanner_assignments;
 
 import java.util.Scanner;

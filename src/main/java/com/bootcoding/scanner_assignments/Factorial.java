@@ -1,3 +1,4 @@
+//Create a program that calculates the factorial of a given number. Validate input to ensure it's a non-negative integer.
 package com.bootcoding.scanner_assignments;
 
 import java.util.Scanner;

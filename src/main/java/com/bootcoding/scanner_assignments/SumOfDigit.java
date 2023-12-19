@@ -1,3 +1,4 @@
+//Calculate the sum of the digits of a given integer.
 package com.bootcoding.scanner_assignments;
 
 import java.util.Scanner;
