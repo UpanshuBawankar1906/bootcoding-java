@@ -1,3 +1,5 @@
+package com.bootcoding.local;
+
 public class LocalVariable
 { 
   public static void main(String [] args)

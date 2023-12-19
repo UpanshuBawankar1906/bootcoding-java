@@ -1,4 +1,6 @@
-public class NamingViolationsExample 
+package com.bootcoding.namingviolation;
+
+public class NamingViolationsExample
 {
     
    public static void printMessage()

@@ -11,8 +11,7 @@ public class CopiedElement
             numbersCopy = numbers;
 
             System.out.print("Original array: ");
-            for (int i = 0; i < numbers.length; i++)
-            {
+            for (int i = 0; i < numbers.length; i++) {
                 System.out.print(numbers[i] + " ");
             }
             System.out.println();

@@ -1,3 +1,5 @@
+package com.bootcoding.Instance;
+
 public class Person
 {
   String name;
