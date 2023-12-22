@@ -1,76 +1,66 @@
 package com.bootcoding.method_assignment;
 
 import java.util.Scanner;
-public class MathString
-{
-    public static double add(double a, double b)
-    {
+
+public class MathString {
+    public static double add(double a, double b) {
         return a + b;
     }
-    public static double subtract (double a, double b)
-    {
+
+    public static double subtract(double a, double b) {
         return a - b;
     }
-    public static double multiply (double a, double b)
-    {
+
+    public static double multiply(double a, double b) {
         return a * b;
     }
-    public static double divide(double a, double b)
-    {
-        if (b != 0)
-        {
-            return a/b;
-        }
-        else
-        {
+
+    public static double divide(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
             System.out.println("Cannot divide by zero");
         }
         return a;
     }
-    public static double power(double a, double exponent)
-    {
-        if  (exponent == 0)
-        {
-             return 1;
-        }
-        else
-        {
-             return a * power(a, exponent - 1);
+
+    public static double power(double a, double exponent) {
+        if (exponent == 0) {
+            return 1;
+        } else {
+            return a * power(a, exponent - 1);
         }
     }
-    public static double squareRoot(double a)
-    {
+
+    public static double squareRoot(double a) {
         double t;
         double sqroot = a / 2;
-        do
-        {
-            t = sqroot ;
-            sqroot =(t + (a / t)) /2;
+        do {
+            t = sqroot;
+            sqroot = (t + (a / t)) / 2;
         }
-        while((t - sqroot ) != 0);
-        return sqroot ;
+        while ((t - sqroot) != 0);
+        return sqroot;
     }
-    public static double factorial (double a)
-    {
-        if (a == 0 || a == 1)
-        {
+
+    public static double factorial(double n) {
+        if (n == 0 || n == 1) {
             return 1;
-        }
-        else
-        {
-            return a * factorial(a - 1);
+        } else {
+            return n * factorial(n - 1);
         }
     }
-    public static int stringLength(String str)
-    {
+
+
+    public static int stringLength(String str) {
         return str.length();
     }
-    public static String concatenate(String str1, String str2)
-    {
+
+    public static String concatenate(String str1, String str2) {
         return str1 + " " + str2;
     }
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter First number");
