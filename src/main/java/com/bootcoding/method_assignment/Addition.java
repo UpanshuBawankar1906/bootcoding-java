@@ -7,6 +7,7 @@ public class Addition
     public static int addition(int a, int b)
     {
         int s = a + b;
+
         return s;
     }
 
@@ -18,8 +19,8 @@ public class Addition
         System.out.println("Enter second Number");
         int b = sc.nextInt();
 
-        int c = addition(a,b);
-        System.out.println("The addition of given number is:"+c);
+        int sum = addition(a,b);
+        System.out.println("The addition of given number is:"+sum);
         
     }
 }
