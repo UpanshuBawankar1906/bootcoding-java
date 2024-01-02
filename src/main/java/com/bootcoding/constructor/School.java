@@ -8,7 +8,7 @@ public class School {
 
     School(String name){
         this.name = name;
-        this.house = house;
+        //this.house = house;
     }
     School(int age){
         this.age = age;
