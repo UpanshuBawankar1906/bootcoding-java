@@ -11,7 +11,7 @@ public class Adder {
 
     public static void main(String[] args) {
         Adder a = new Adder();
-        a.add("adc");
-        a.add(3);
+        a.add("abc");
+
     }
 }
