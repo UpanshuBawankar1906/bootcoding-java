@@ -1,11 +1,9 @@
 package com.bootcoding.encapsulation;
-
 class Account{
     private long acc_no;
     private float deposit;
     private String email;
     private String name;
-
     public void setName(String name) {
         this.name = name;
     }
