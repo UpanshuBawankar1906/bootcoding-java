@@ -32,14 +32,14 @@ public class StudentInfo {
         std.mobile = mob;
         std.subject = sub;
 
-        System.out.println("Name:             " + std.name);
-        System.out.println("Roll no.:         " + std.roll_no);
-        System.out.println("Subject:          " + std.subject.title);
-        System.out.println("Total Marks:      " + std.subject.totalMarks);
-        System.out.println("Obtained Marks:   " + std.subject.obtainMarks);
-        System.out.println("Mobile Brand:     " + std.mobile.brandName);
-        System.out.println("Mobile Price:     " + std.mobile.price);
-        System.out.println(mob.brandName);
+        System.out.println("Name            : " + std.name);
+        System.out.println("Roll no.        : " + std.roll_no);
+        System.out.println("Subject         : " + std.subject.title);
+        System.out.println("Total Marks     : " + std.subject.totalMarks);
+        System.out.println("Obtained Marks  : " + std.subject.obtainMarks);
+        System.out.println("Mobile Brand    : " + std.mobile.brandName);
+        System.out.println("Mobile Price    : " + std.mobile.price);
+
 
 
     }
