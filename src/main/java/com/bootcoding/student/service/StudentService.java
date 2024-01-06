@@ -4,7 +4,7 @@ import com.bootcoding.student.model.Result;
 import com.bootcoding.student.model.Student;
 import com.bootcoding.student.model.Subject;
 
-import java.util.Arrays;
+
 
 public class StudentService {
     public void processData(){
@@ -40,7 +40,7 @@ public class StudentService {
         Result res = new Result();
         res.setRoll_no(std.getRoll_no());
         res.setPercentage( ((sub.getObtain_marks() + sub2.getObtain_marks() + sub3.getObtain_marks() +
-                sub4.getObtain_marks()) / ((double) sub.getTotal_marks() + sub2.getTotal_marks() +
+                sub4.getObtain_marks()) / ( sub.getTotal_marks() + sub2.getTotal_marks() +
                 sub3.getTotal_marks() + sub4.getTotal_marks()) * 100));
         res.setSemister(sub.getSemister());
 
