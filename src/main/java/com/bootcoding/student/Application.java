@@ -6,7 +6,5 @@ public class Application {
     public static void main(String[] args) {
         StudentService studentService = new StudentService();
         studentService.processData();
-
-        System.out.println();
     }
 }
