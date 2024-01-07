@@ -2,6 +2,7 @@ package com.bootcoding.student.model;
 public class Student {
     String name;
     int roll_no;
+    int id;
     Subject[] subject;
     public Subject[] getSubject() {
         return subject;

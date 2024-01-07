@@ -60,5 +60,48 @@ public class MobileService {
         s.setArea_no(04);
         s.setArea_name("Nadanwan");
 
+
+        System.out.println("Name of the Area: "+" "+s.getArea_no());
+        System.out.println("Name of the Area: "+" "+s.getArea_name());
+        System.out.println();
+
+        System.out.println("Name of the User    : "+" "+us.getName());
+        System.out.println("Age of the User     : "+" "+ us.getAge());
+        System.out.println("Name of the Mobile  : "+" "+us.getMobileName());
+        System.out.println("Year of using       : "+" "+us.getUsageYear());
+        System.out.println("RAM                 : "+" "+m.getRam());
+        System.out.println("ROM                 : "+" "+m.getRom());
+        System.out.println("Processor           : "+" "+m.getProcessor());
+        System.out.println();
+
+        System.out.println("Name of the User    : "+" "+us2.getName());
+        System.out.println("Age of the User     : "+" "+ us2.getAge());
+        System.out.println("Name of the Mobile  : "+" "+us2.getMobileName());
+        System.out.println("Year of using       : "+" "+us2.getUsageYear());
+        System.out.println("RAM                 : "+" "+m2.getRam());
+        System.out.println("ROM                 : "+" "+m2.getRom());
+        System.out.println("Processor           : "+" "+m2.getProcessor());
+        System.out.println();
+
+        System.out.println("Name of the User    : "+" "+us3.getName());
+        System.out.println("Age of the User     : "+" "+ us3.getAge());
+        System.out.println("Name of the Mobile  : "+" "+us3.getMobileName());
+        System.out.println("Year of using       : "+" "+us3.getUsageYear());
+        System.out.println("RAM                 : "+" "+m3.getRam());
+        System.out.println("ROM                 : "+" "+m3.getRom());
+        System.out.println("Processor           : "+" "+m3.getProcessor());
+        System.out.println();
+
+        System.out.println("Name of the User    : "+" "+us4.getName());
+        System.out.println("Age of the User     : "+" "+ us4.getAge());
+        System.out.println("Name of the Mobile  : "+" "+us4.getMobileName());
+        System.out.println("Year of using       : "+" "+us4.getUsageYear());
+        System.out.println("RAM                 : "+" "+m4.getRam());
+        System.out.println("ROM                 : "+" "+m4.getRom());
+        System.out.println("Processor           : "+" "+m4.getProcessor());
+        System.out.println();
+
+
+
     }
 }
