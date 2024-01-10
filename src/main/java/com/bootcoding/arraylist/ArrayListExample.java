@@ -13,8 +13,5 @@ public class ArrayListExample {
         animals.add("Dog");
 
         System.out.println(animals);
-        animals.add(2, "Elephant");
-
-        System.out.println(animals);
     }
 }
