@@ -26,7 +26,8 @@ public class Linkedlist {
         System.out.println("l2 list"+l2);
         Iterator itr=l1.iterator();
         while(itr.hasNext()){
-            System.out.println(itr.next());
+            System.out.println("l1 "+itr.next());
         }
+
     }
 }
