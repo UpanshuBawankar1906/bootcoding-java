@@ -1,4 +1,4 @@
-package com.bootcoding.arraylist;
+package com.bootcoding.list;
 
 import java.util.ArrayList;
 import java.util.List;
