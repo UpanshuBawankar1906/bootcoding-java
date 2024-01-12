@@ -11,6 +11,7 @@ public class HashSet {
         hs.add("krish");
         hs.add("Yash");
         hs.add("Upanshu");
+        hs.add("Bootcoding");
         System.out.println(hs);
         System.out.println(hs.size());
         System.out.println(hs.remove("Krish"));
