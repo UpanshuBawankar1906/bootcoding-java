@@ -1,7 +1,6 @@
-package com.bootcoding.list;
+package com.bootcoding.collections;
 
 import java.util.Iterator;
-import java.util.List;
 import java.util.LinkedList;
 
 public class Linkedlist {
